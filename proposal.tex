@@ -15,6 +15,11 @@
 \usepackage[style=mla,backend=biber]{biblatex}
 \bibliography{exported_items.bib}
 
+\DefineBibliographyStrings{english}{%
+ bibliography = {},%
+ references= {},%
+}
+
 \begin{document}
 
 \begin{mla}{Thomas}{Murphy}{Dr. Lihong Shi}{ANTH 360}{15 March 2016}{Research Paper Proposal: Medical Training in Abortion Procedures}
@@ -27,7 +32,8 @@ With this context, I will be looking to establish the general thesis that aborti
 \begin{workscited}
 
 \nocite{*}
-\printbibliography
+\vspace*{-12ex}
+\printbibliography[title={}]
 
 \end{workscited}
 
