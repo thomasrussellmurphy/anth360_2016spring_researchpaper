@@ -1,0 +1,14 @@
+# .gitignore for a LaTeX/BibLaTeX/Biber project
+*.*~
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.dvi
+*.log
+*.out
+*.pdf
+*.png
+*.run.xml
+*/*.cls
+*/*.sty
