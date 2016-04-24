@@ -1,8 +1,11 @@
 # Makefile for this LaTex document
-.PHONY: build clean
+.PHONY: paper proposal clean
 
-build:
+paper:
 	latex paper && biber paper && latex paper && pdflatex paper
 
+proposal:
+	pdflatex proposal && biber proposal && pdflatex proposal && pdflatex proposal
+
 clean:
-	rm -rf paper.{aux,bbl,bcf,*blg,dvi,log,pdf,run.xml} texput.log
+	rm -rf *.{aux,bbl,bcf,blg,dvi,log,pdf,run.xml} texput.log
