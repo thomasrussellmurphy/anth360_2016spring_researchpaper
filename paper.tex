@@ -1,9 +1,17 @@
 \documentclass[letterpaper, 12pt]{article}
 \input{default}
 
-% Setup Chicago 16th edition, notes-mode citations
+\usepackage[pdftex,
+            pdfauthor={Thomas Russell Murphy},
+            pdftitle={Medical Training for Abortion Procedures in America},
+            pdfsubject={The Subject},
+            pdfkeywords={abortion, training, medical training, OB/GYN, obstetrician, gynecology, reproduction, fertility, birth control},
+            pdfproducer={\pdftexbanner},
+            pdfcreator={{\pdftexbanner} with Biber and a Makefile}]{hyperref}
+
+% Setup Chicago 16th edition, footnotes-mode citations
 \usepackage[notes,short,backend=biber]{biblatex-chicago}
-\bibliography{exported_items}
+\bibliography{exported_items_active_updating}
 
 % Use English babel and fancy quotes
 \usepackage[american]{babel}
@@ -16,12 +24,35 @@
 \begin{document}
 \maketitle
 
-	%Document Content
-	Words to cite \autocite[pg. N]{turk_availability_2014}
+% Original general thesis: "Abortion training is becoming more available and being completed by more physicians, but this trend needs to continue so that future practicing physicians can provide better access to care, particularly with regard to primary care."
+% Revised thesis points:
+%   - training is not the only barrier
+%   - policy influence on care provided due to individual and organizational beliefs
 
+% Background on abortion in the United States
+Just over a million abortions reported in 2011 \autocite[pg. 7]{jones_abortion_2014}
+
+32.8\% of births were Cesarean deliveries, about 1.3 million births in 2011 \autocite[pg. 5.]{martin_births_2013}
+
+20,090 obstetricians and gynecologists employed in May 2015, primarily physicians' offices and outpatient care centers \autocite{occupational_employment_and_wages_may_2015}
+
+% Contextualize providers of abortion in the United States
+
+% Discussion of OB/GYN training in residency
+\autocite{accreditation_council_for_graduate_medical_education_acgme_2014}
+
+% Barriers preventing physicians from providing/offering abortions
+\autocite{freedman_obstacles_2010}
+
+% Relationships between patients and physicians
+\autocite{bennett_early_2009}
+
+% Conclusion
+
+
+% Bibliographic material
 \newpage
-
-% Make biblography
+%\nocite{*}
 \printbibliography
 
 \end{document}

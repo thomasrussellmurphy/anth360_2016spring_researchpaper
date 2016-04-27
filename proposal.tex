@@ -15,10 +15,10 @@
 \usepackage[style=mla,backend=biber]{biblatex}
 \bibliography{exported_items.bib}
 
-\DefineBibliographyStrings{english}{%
- bibliography = {},%
- references= {},%
-}
+%\DefineBibliographyStrings{english}{%
+% bibliography = {},%
+% references= {},%
+%}
 
 \begin{document}
 
@@ -32,8 +32,7 @@ With this context, I will be looking to establish the general thesis that aborti
 \begin{workscited}
 
 \nocite{*}
-\vspace*{-12ex}
-\printbibliography[title={}]
+\printbibliography[heading=none]
 
 \end{workscited}
 

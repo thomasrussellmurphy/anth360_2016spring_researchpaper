@@ -2,7 +2,7 @@
 .PHONY: paper proposal clean
 
 paper:
-	latex paper && biber paper && latex paper && pdflatex paper
+	pdflatex paper && biber paper && pdflatex paper && pdflatex paper
 
 proposal:
 	pdflatex proposal && biber proposal && pdflatex proposal && pdflatex proposal
