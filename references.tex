@@ -1,0 +1,36 @@
+\documentclass[letterpaper, 12pt]{article}
+\input{default}
+
+\usepackage[pdftex,
+            pdfauthor={Thomas Russell Murphy},
+            pdftitle={Medical Training for Abortion Procedures and Physician Provision of Abortions in the United States: References},
+            pdfsubject={},
+            pdfkeywords={abortion, training, medical training, OB/GYN, obstetrician, gynecology, reproduction, fertility, birth control},
+            pdfproducer={\pdftexbanner},
+            pdfcreator={{\pdftexbanner} with Biber and a Makefile}]{hyperref}
+
+% Setup Chicago 16th edition, footnotes-mode citations
+\usepackage[notes,short,backend=biber]{biblatex-chicago}
+\bibliography{exported_items_active_updating}
+
+% Use English babel and fancy quotes
+\usepackage[american]{babel}
+\usepackage{csquotes}
+
+\title{Medical Training for Abortion Procedures and Physician Provision of Abortions in the United States: References}
+\author{Thomas R. Murphy}
+\date{\today\\ANTH 360}
+
+\begin{document}
+\maketitle
+
+% Bibliographic material
+\nocite{*}
+\printbibliography
+
+\end{document}
+
+Post-document snippets
+
+\cite[<prenote>][<postnote>]{<key>}
+\cite[<postnote>]{<key>}
