@@ -30,14 +30,38 @@
   *{package}{ltxcmds}     {2011/11/09 v1.22}
   *{package}{color}       {2014/10/28 v1.1a}
   *{file}   {color.cfg}   {2007/01/18 v1.5}
+  *{package}{titlesec}    {2011/12/15 v2.10.0}
+  *{package}{biblatex-chicago}{2014/08/15 v2.9a}
+  *{package}{etoolbox}    {2015/05/04 v2.2}
+  *{package}{biblatex}    {2015/04/19 v3.0}
+  *{package}{biblatex2}   {2015/04/19 v3.0}
+  *{package}{kvoptions}   {2011/06/30 v3.11}
+  *{package}{kvsetkeys}   {2012/04/25 v1.16}
+  *{package}{etexcmds}    {2011/02/16 v1.5}
+  *{package}{ifluatex}    {2010/03/01 v1.3}
+  *{package}{logreq}      {2010/08/04 v1.0}
+  *{file}   {logreq.def}  {2010/08/04 v1.0}
+  *{package}{ifthen}      {2014/09/29 v1.1c}
+  *{package}{url}         {2013/09/16 v3.4}
+  *{file}   {blx-dm.def}  {0000/00/00 v0.0}
+  *{file}   {chicago-notes.dbx}{0000/00/00 v0.0}
+  *{file}   {biblatex-dm.cfg}{0000/00/00 v0.0}
+  *{file}   {blx-compat.def}{2015/04/19 v3.0}
+  *{file}   {biblatex.def}{0000/00/00 v0.0}
+  *{file}   {chicago-notes.bbx}{2014/08/15 v2.9a}
+  *{file}   {chicago-notes.cbx}{2014/08/21 v2.9a}
+  *{file}   {biblatex.cfg}{0000/00/00 v0.0}
+  *{package}{babel}       {2014/09/25 v3.9l}
+  *{file}   {english.ldf} {2012/08/20 v3.3p}
+  *{package}{csquotes}    {2015/04/15 v5.1e}
+  *{file}   {csquotes.def}{2015/04/15 v5.1e}
+  *{file}   {csquotes.cfg}{0000/00/00 v0.0}
+  *{package}{setspace}    {2011/12/19 v6.7a}
   *{package}{hyperref}    {2012/11/06 v6.83m}
   *{package}{hobsub-hyperref}{2012/05/28 v1.13}
   *{package}{hobsub-generic}{2012/05/28 v1.13}
   *{package}{hobsub}      {2012/05/28 v1.13}
-  *{package}{ifluatex}    {2010/03/01 v1.3}
   *{package}{intcalc}     {2007/09/27 v1.1}
-  *{package}{etexcmds}    {2011/02/16 v1.5}
-  *{package}{kvsetkeys}   {2012/04/25 v1.16}
   *{package}{kvdefinekeys}{2011/04/07 v1.3}
   *{package}{pdftexcmds}  {2011/11/29 v0.20}
   *{package}{pdfescape}   {2011/11/25 v1.13}
@@ -52,34 +76,10 @@
   *{package}{refcount}    {2011/10/16 v3.4}
   *{package}{hycolor}     {2011/01/30 v1.7}
   *{package}{auxhook}     {2011/03/04 v1.3}
-  *{package}{kvoptions}   {2011/06/30 v3.11}
   *{file}   {pd1enc.def}  {2012/11/06 v6.83m}
   *{file}   {hyperref.cfg}{2002/06/06 v1.2}
-  *{package}{url}         {2013/09/16 v3.4}
   *{file}   {hpdftex.def} {2012/11/06 v6.83m}
   *{package}{rerunfilecheck}{2011/04/15 v1.7}
-  *{package}{biblatex-chicago}{2014/08/15 v2.9a}
-  *{package}{etoolbox}    {2015/05/04 v2.2}
-  *{package}{biblatex}    {2015/04/19 v3.0}
-  *{package}{biblatex2}   {2015/04/19 v3.0}
-  *{package}{logreq}      {2010/08/04 v1.0}
-  *{file}   {logreq.def}  {2010/08/04 v1.0}
-  *{package}{ifthen}      {2014/09/29 v1.1c}
-  *{file}   {blx-dm.def}  {0000/00/00 v0.0}
-  *{file}   {chicago-notes.dbx}{0000/00/00 v0.0}
-  *{file}   {biblatex-dm.cfg}{0000/00/00 v0.0}
-  *{file}   {blx-compat.def}{2015/04/19 v3.0}
-  *{file}   {biblatex.def}{0000/00/00 v0.0}
-  *{file}   {chicago-notes.bbx}{2014/08/15 v2.9a}
-  *{file}   {chicago-notes.cbx}{2014/08/21 v2.9a}
-  *{file}   {biblatex.cfg}{0000/00/00 v0.0}
-  *{package}{babel}       {2014/09/25 v3.9l}
-  *{file}   {english.ldf} {2012/08/20 v3.3p}
-  *{package}{csquotes}    {2015/04/15 v5.1e}
-  *{file}   {csquotes.def}{2015/04/15 v5.1e}
-  *{file}   {csquotes.cfg}{0000/00/00 v0.0}
-  *{package}{titlesec}    {2011/12/15 v2.10.0}
-  *{package}{setspace}    {2011/12/19 v6.7a}
   *{file}   {english.lbx} {2015/04/19 v3.0}
   *{file}   {american.lbx}{2015/04/19 v3.0}
   *{file}   {cms-american.lbx}{2013/10/29 v2.8}
@@ -88,9 +88,9 @@
   *{package}{epstopdf-base}{2010/02/09 v2.5}
   *{package}{grfext}      {2010/08/19 v1.1}
   *{file}   {epstopdf-sys.cfg}{2010/07/13 v1.3}
+  *{file}   {paper.bbl}   {0000/00/00 v0.0}
   *{package}{nameref}     {2012/10/27 v2.43}
   *{package}{gettitlestring}{2010/12/03 v1.4}
   *{file}   {paper.out}   {0000/00/00 v0.0}
   *{file}   {paper.out}   {0000/00/00 v0.0}
-  *{file}   {paper.bbl}   {0000/00/00 v0.0}
 }
